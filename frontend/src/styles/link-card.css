@@ -1,0 +1,90 @@
+.link-card {
+  background: white;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  transition: all 0.2s ease;
+}
+
+.link-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.link-card-header {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  align-items: flex-start;
+}
+
+.link-favicon {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.25rem;
+}
+
+.link-title-container {
+  flex: 1;
+}
+
+.link-card h3 {
+  font-size: 1.125rem;
+  margin: 0 0 0.25rem 0;
+  word-break: break-word;
+}
+
+.link-domain {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.link-description {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.link-tags {
+  margin-bottom: 1rem;
+}
+
+.link-stats {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+}
+
+.visibility-badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  background: #f0f0f0;
+}
+
+.visibility-badge[data-visibility="public"] {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.visibility-badge[data-visibility="private"] {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.click-count {
+  color: var(--text-secondary);
+}
+
+.link-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.link-actions button {
+  flex: 1;
+  min-width: 70px;
+}

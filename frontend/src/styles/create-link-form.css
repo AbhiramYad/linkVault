@@ -1,0 +1,24 @@
+.create-link-form {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.create-link-form h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.create-link-form input,
+.create-link-form textarea,
+.create-link-form select {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    grid-template-columns: 1fr !important;
+  }
+}
