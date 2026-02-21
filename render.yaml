@@ -3,7 +3,7 @@ services:
   - type: web
     name: linkvault
     runtime: node
-    buildCommand: cd frontend && npm ci && npm run build && cp -r dist ../backend/public && cd ../backend && npm ci
+    buildCommand: cd frontend && npm install && npm run build && cp -r dist ../backend/public && cd ../backend && npm install
     startCommand: cd backend && npm start
     envVars:
       - key: NODE_ENV
