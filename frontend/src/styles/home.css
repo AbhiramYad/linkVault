@@ -30,8 +30,8 @@
 .description {
   font-size: 1.125rem;
   margin-bottom: 2rem;
-  color:white;
-  opacity:1;
+  color: black !important;
+  opacity: 1;
 }
 
 .features {
